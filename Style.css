@@ -1,0 +1,237 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header{
+  background: #fff;
+  color: #222;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a{
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20 0 20;
+
+}
+head #logo{
+  float: left;
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: -50px;
+}
+
+header .current a{
+  color: #B22222;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #B22222;
+}
+
+/* Showcase */
+#showcase{
+  min-width: 400px;
+  display: table;
+  width: 100%;
+  height: 50%;
+  padding: 350px 0 330px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  background: url(images/header.jpg) no-repeat center;
+  background-size:cover;
+}
+
+#showcase h1{
+  text-align: center;
+  color: #B22222;
+  font-size: 2.5rem;
+}
+
+#showcase p{
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Intro */
+
+#intro{
+ float: left;
+}
+
+#intro img{
+  margin-top: 100px;
+  float: left;
+}
+
+#intro p{
+  margin-top: 100px;
+  padding: 80px;
+  text-align: justify;
+  margin-right: 5%;
+}
+
+#intro .button1{
+  position: absolute;
+  float: left;
+  margin-left: 15%;
+  border: #222; 1px solid;
+  background-color: #222;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  display: block;
+  margin-top: -80px;
+}
+
+#intro .button1:hover{
+  color: #b22222;
+  background-color: #fff;
+  border: #222 1px solid;
+}
+
+/* Branches */
+#branches h2{
+  color: #222;
+  width: auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#branches{
+  margin-top: 20px;
+  padding-top: 50px;
+  margin-bottom: 200px;
+}
+
+#branches .branch{
+  float: left;
+  width: 20%;
+  text-align: center;
+  border: #222 1px solid;
+  margin: 10px;
+  background-color: #222;
+  background-position: center center;
+  height: 40%
+}
+
+#branches .branch img{
+  position: relative;
+  width: 100%;
+  border: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#branches .branch h3{
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#branches p{
+  color: #fff;
+}
+
+#branches hr{
+  color: #b22222;
+  background-color: #b22222;
+  height: 5px;
+  width: 20%;
+  border: none;
+  margin-bottom: 30px;
+}
+
+/* Interest */
+#banner{
+  float: left;
+  width: 100%;
+  height: 35%;
+  background-color: #222;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#banner .button2{
+  font-size: 1.5rem;
+  display: inline-block;
+  border: #b22222 1px solid;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  display: inline-block;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: -200px;
+}
+
+#banner .button2:hover{
+  color: #b22222;
+  background-color: #222;
+}
+
+#banner p{
+  padding-left: 50%;
+}
+
+#banner p, .button2{
+  display: inline-block;
+}
+
+.companies{
+  color: #222;
+  background-color: #dcdcdc;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-right: 600px;
+  height: 70px;
+}
+
+/* Footer */
+footer{
+  display: block;
+  background-color: #222;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  color: #dcdcdc;
+  font-size: 1rem;
+  vertical-align: middle;
+}
